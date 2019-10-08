@@ -11,7 +11,7 @@ module Quickbooks
       xml_accessor :tax_tracked_on_purchases?, from: 'TaxTrackedOnPurchases'
       xml_accessor :tax_tracked_on_sales?,     from: 'TaxTrackedOnSales'
       xml_accessor :display_name,              from: 'DisplayName'
-      xml_accessor :tax_registration_number,   from: 'TaxRegistrationNum'
+      xml_accessor :tax_registration_number,   from: 'TaxRegistrationNumber'
 
       validates_presence_of :display_name
     end
